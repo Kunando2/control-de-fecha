@@ -114,7 +114,7 @@ function App() {
     if (daysRemaining <= 30) {
       return 'red';
     } else if (daysRemaining <= 60) {
-      return 'yellow';
+      return 'green';
     } else {
       return 'inherit';
     }
